@@ -4,11 +4,11 @@ This repository contains R scripts and data for bacterial competition experiment
 
 ## Directory Contents
 
-### [Figure 2](./Figure%202/README.md)
+### :file_folder: [Figure 2](./Figure%202/README.md)
 
 Contains scripts for visualizing bacterial colony counting data.
 
-### [deseq](./deseq/README.md)
+### :file_folder: [deseq](./deseq/README.md)
 
 Contains RNA-seq differential expression analysis.
 
@@ -25,6 +25,8 @@ Rscript deseq/ReportForPaperFinal.R
 ## Requirements
 
 R packages: `readxl`, `dplyr`, `tidyr`, `ggplot2`, `DESeq2`, `data.table`, `emmeans`, `lme4`, `ggtext`, `patchwork`, `openxlsx`
+
+Note that a `./utils/install_dependencies.R` script can help install these.
 
 ## Citation
 
